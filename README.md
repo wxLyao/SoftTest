@@ -164,7 +164,7 @@ def run_tests(dataset):
 
 ### **实验结果**
 
-- ![结果展示](assets\结果展示.png)
+- ![结果展示](assets/结果展示.png)
 
 - 实验结果如上：
 
@@ -204,5 +204,5 @@ curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspee
 
 运行结果展示于Untitled.ipynb文件
 
-![结果展示](assets\结果展示.png)
+![结果展示](assets/结果展示.png)
 
