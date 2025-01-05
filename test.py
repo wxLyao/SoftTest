@@ -63,7 +63,7 @@ def run_tests(dataset):
         predictions_clean.append(clean_transcription)
 
         # 向音频中添加噪声并保存
-        noisy_audio, sr = add_noise(audio_path, noise_level=0.05)
+        noisy_audio, sr = add_noise("audio/pre/"+audio_path, noise_level=0.05)
         noisy_audio_path = f"audio/noisy/noisy_{audio_path}"
         save_noisy_audio(noisy_audio, sr, noisy_audio_path)
 
